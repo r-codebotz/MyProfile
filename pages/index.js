@@ -16,14 +16,14 @@ const Home = () => {
           <motion.div {...CardHomeAnimation} animate={{ rotate: -3 }} className="card-home absolute bg-secondary-light" />
           <motion.div {...CardHomeAnimation} animate={{ rotate: 2 }} className="card-home relative bg-primary-light">
             <motion.div {...FadeAnimation} className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-xl">
-              <Image src="/images/profile/profile.png" priority layout="intrinsic" width={500} height={500} alt="Я-Coder" className="relative" />
+              <Image src="/images/profile/profile.png" priority layout="intrinsic" width={500} height={500} alt="Gilang" className="relative" />
             </motion.div>
           </motion.div>
         </motion.div>
 
         <motion.div {...ContentAnimation} className="relative order-1 w-1/3 md:order-2">
           <h3 className="-mb-5 text-base font-normal">Hi! My name is</h3>
-          <h1 className="-ml-1 mb-1 text-7xl font-bold text-primary-light">Я-Coder</h1>
+          <h1 className="-ml-1 mb-1 text-7xl font-bold text-primary-light">Gilang</h1>
           <h4 className="text-sm font-light transition-all duration-500 hover:text-primary-light">Learn JavaScript</h4>
         </motion.div>
       </section>
